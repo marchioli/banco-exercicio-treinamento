@@ -1,0 +1,44 @@
+{
+  "name": "banco-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "NODE_ENV=dev node src/loader.js",
+    "production": "NODE_ENV=prod node src/loader.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-s3": "^2.0.5",
+    "aws-sdk": "^2.610.0",
+    "axios": "^0.19.2",
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.5",
+    "express": "^4.14.0",
+    "express-query-int": "^1.0.1",
+    "firebase-admin": "^8.9.0",
+    "formidable": "^1.2.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.31",
+    "mongoose": "^5.6.11",
+    "mongoose-paginate": "^5.0.3",
+    "mongoose-sequence": "^5.2.2",
+    "node-restful": "^0.2.5",
+    "nodemailer": "^6.4.2",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^1.11.0",
+    "pm2": "^2.1.5",
+    "s3-upload-stream": "^1.0.7",
+    "socket.io": "^2.3.0",
+    "uuid-v4": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
