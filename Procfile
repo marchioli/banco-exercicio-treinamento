@@ -1,1 +1,1 @@
-web: yarn production
+npm run production
